@@ -40,7 +40,7 @@ function configure() {
 	#
 	csapZipUrl="http://${csapFqdn:-$(hostname --long)}:${agentPort:-8011}/api/agent/installer"
 	# csapZipUrl="http://devops-prod01.lab.sensus.net:8081/artifactory/csap-snapshots/org/csap/csap-host/2-SNAPSHOT/csap-host-2-SNAPSHOT.zip"
-	# csapZipUrl="http://devops-prod01.lab.sensus.net:8081/artifactory/csap-release/org/csap/csap-host/21.11/csap-host-21.11.zip"
+	# csapZipUrl="http://devops-prod01.lab.sensus.net:8081/artifactory/csap-release/org/csap/csap-host/22.01/csap-host-22.01.zip"
 	
 
 }
